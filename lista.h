@@ -15,7 +15,6 @@ Dici* carrega_inic(Dici *ptr);
 Dici* alocaNo();
 void desalocaNo(Dici* ptr);
 
-Dici* insere_fim(Dici* ptr, string port, string ing);
 Dici* insere_ord(Dici* ptr, string port, string ing);
 
 bool remover_palavra(Dici** ptr, string palavra);
@@ -27,3 +26,4 @@ void imprimir_Dici(Dici* ptr);
 void traducao(Dici** ptr);
 
 #endif
+
